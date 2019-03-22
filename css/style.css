@@ -1,0 +1,62 @@
+	body{
+        background-color: #01565A;
+        background-repeat: no-repeat;
+        background-size: cover;
+				background-position: center;
+				background-image: url('../img/steuer.jpg');
+				height: 100vH; /* covers the whole screen*/
+	}
+
+  form{
+        background-color: #CE7953;
+        width: 620px;
+        padding: 10px;
+        margin-left: 25px;
+        margin-top: 25px;
+  }
+
+  h1{
+        border-width: 3px;
+        padding-color: #0E2431;
+
+  }
+
+  button{
+       	background-color: khaki;
+       	float: right;
+       	margin-right: 120px;
+       	width: 90px;
+       	border-radius: 50%;
+  }
+
+	label{
+        font-size: 16px;
+        font-weight: bold;
+  }
+
+	.netto{
+        font-size: 16px;
+				margin-left: 10px;
+
+    }
+
+	.ust{
+	 			font-size: 22px;
+     		font-weight: bold;
+	 			color: #FFEAA3;
+				margin-left: 10px;
+	}
+
+  #gif-place{
+		   margin-top: 100px auto;
+
+	}
+
+
+  #hideButton{
+        width: 70px;
+        color: white;
+        background-color: black;
+        font-size: 8px;
+        text-align: center;
+    }

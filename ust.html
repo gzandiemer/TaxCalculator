@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Umsatzsteuerrechner</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+     <form>
+        <h1>Umsatzsteuer-Rechner für Deutschland</h1>
+     		<label>Brutto-Preis: </label><input type="text" id="brutto" value="0"> € &emsp;
+     		<select id="tax_type" name="tax_type">
+     			<option value="19">Normal</option>
+     			<option value="7">Ermäßigt</option>
+     		</select>
+     		<button type="button" onClick="tax_calc()">Berechnen</button><br><br>
+            <label>Netto-Preis:</label><output class="netto" type="number" id="output_netto" for="brutto"></output><br><br>
+            <label>USt:</label><output class="ust" type="number" id="output_tax" for="brutto"></output><br><br>
+
+
+        <div id="gif-place">
+        </div>
+		 </form>
+  </body>
+  <script type="text/javascript" src="js/script.js">
+  </script>
+</html>
